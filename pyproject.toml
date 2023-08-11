@@ -3,16 +3,12 @@ name = ""
 version = ""
 description = ""
 authors = [
-    {name = "Davi Gabriel Tomaz", email = "davigabtomaz@gmail.com"},
+    {name = "Davi",email = "davigabtomaz@gmail.com"},
 ]
 dependencies = [
-    "django>=4.2.4",
+    "djangorestframework>=3.14.0",
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 readme = "README.md"
-license = {text = "MIT"}
+license = {text = "Davi"}
 
-[tool.pdm.dev-dependencies]
-dev = [
-    "black>=23.7.0",
-]
