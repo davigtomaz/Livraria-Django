@@ -25,6 +25,7 @@ from livraria.views import (
     EditoraViewSet,
     LivroViewSet,
     AutorViewSet,
+    CompraViewSet
 )
 
 
@@ -33,6 +34,7 @@ router.register(r"categorias", CategoriaViewSet)
 router.register(r"editoras", EditoraViewSet)
 router.register(r"livros", LivroViewSet)
 router.register(r"autores", AutorViewSet)
+router.register(r"compras", CompraViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
